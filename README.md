@@ -26,3 +26,4 @@ The minutes variable is calculated by taking the remainder of totalTimeMinutes d
 which gives the remaining minutes after the hours have been accounted for.
 
 Finally, the result is displayed to the user in the format "X hours Y minutes".
+This code is semi acure at to moment. I am tryting to get better data.
