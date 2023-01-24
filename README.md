@@ -11,15 +11,18 @@ the reading speed and then converting the result from minutes to hours and minut
 
 Here is the relevant code snippet:
 
-
   var wordsPerMinute = parseInt(form.readingSpeed.value, 10);
   var totalTimeMinutes = words / wordsPerMinute;
   var hours = Math.floor(totalTimeMinutes / 60);
   var minutes = Math.ceil(totalTimeMinutes % 60);
 
 
+
+
+
 The wordsPerMinute variable is determined by parsing the value chosen by the user in the reading speed dropdown menu. 
 This value is then used to divide the number of words in the document (stored in the words variable) to calculate the total reading time in minutes.
+
 
 The hours variable is calculated by dividing the totalTimeMinutes by 60, which converts the time to hours. 
 The minutes variable is calculated by taking the remainder of totalTimeMinutes divided by 60, 
