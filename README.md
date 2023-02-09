@@ -5,7 +5,6 @@ The page includes some basic styling, such as font and color choices, as well as
 The form includes an input field for the number of words and a dropdown menu for the reading speed. 
 There is also a submit button which will trigger the calculation and display the result.
 
-
 The code calculates the estimated reading time by dividing the number of words by 
 the reading speed and then converting the result from minutes to hours and minutes.
 
