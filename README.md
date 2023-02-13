@@ -18,7 +18,6 @@ Here is the relevant code snippet:
 The wordsPerMinute variable is determined by parsing the value chosen by the user in the reading speed dropdown menu. 
 This value is then used to divide the number of words in the document (stored in the words variable) to calculate the total reading time in minutes.
 
-
 The hours variable is calculated by dividing the totalTimeMinutes by 60, which converts the time to hours. 
 The minutes variable is calculated by taking the remainder of totalTimeMinutes divided by 60, 
 which gives the remaining minutes after the hours have been accounted for.
