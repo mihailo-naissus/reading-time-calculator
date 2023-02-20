@@ -13,6 +13,7 @@ There is also a submit button which will trigger the calculation and display the
 
 
 
+
 The code calculates the estimated reading time by dividing the number of words by 
 the reading speed and then converting the result from minutes to hours and minutes.
 
